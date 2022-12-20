@@ -1,0 +1,18 @@
+ls = [12, 31, -52, 14]
+print(ls)
+ls.append(-20)
+print(ls)
+copy_1 = ls.copy()
+copy_1.sort()
+print(copy_1)
+copy_2 = ls.copy()
+copy_2.reverse()
+print(copy_2)
+print(ls.index(14))
+cat = copy_1 + ls
+print(cat)
+cat.insert(-1, 108)
+print(cat)
+cat.extend(copy_2[::3])
+print(cat)
+print(cat.count(12))
