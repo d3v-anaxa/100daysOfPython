@@ -1,0 +1,15 @@
+countries_1 = ("India", "Bangladesh", "Sri Lanka")
+countries_2 = ("China", "Bangladesh", "Pakisthan", "Afganisthan")
+countries_2 = list(countries_2)
+countries_2.pop(1)
+countries_2 = tuple(countries_2)
+countries_together = countries_1 + countries_2
+print(countries_together)
+countries_1 = list(countries_1)
+countries_1.append("Nepal")
+countries_1 = tuple(countries_1)
+countries_together = countries_1 + countries_2
+print(countries_together)
+print("Bangladesh count : ", countries_together.count("Bangladesh"), "times")
+print(countries_together[::-1].index("Bangladesh"))
+print("tuple length : ", len(countries_together))
