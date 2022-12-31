@@ -24,3 +24,5 @@ emp_ID_2.clear()
 print(list(emp_ID_2.items()))
 emp_ID_1.pop(list(emp_ID_1.keys()).pop())
 print(list(emp_ID_1.items()))
+del emp_ID_1[list(emp_ID_1.keys()).pop()]
+print(list(emp_ID_1.items()))
